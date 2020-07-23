@@ -26,9 +26,9 @@ env:
   GITHUB_SHA: ${{ github.sha }}
   GKE_ZONE: australia-southeast1
   GKE_CLUSTER: devsecol-cluster
-  IMAGE: ricardo-gke-test
+  IMAGE: esteban-gke-test
   REGISTRY_HOSTNAME: gcr.io
-  DEPLOYMENT_NAME: ricardo-gke-test
+  DEPLOYMENT_NAME: esteban-gke-test
 
 jobs:
   setup-build-publish-deploy:
